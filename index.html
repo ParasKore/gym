@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex,nofollow">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-56QWW3H3');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train with thomas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="shortcut icon" href="./fitness_logo-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="landing-page">
+        <div class="background">
+            <video autoplay loop muted class="background-video">
+                <source src="./2025457-hd_1280_720_30fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Foreground with text and other elements -->
+        <div class="foreground">
+        <header id="header">
+            <div id="header1">
+            <img src="./fitness_logo-removebg-preview.png" alt="">
+            </div>
+            <div id="header2">
+            <h4>Fitness</h4>
+            <h4>Get Help</h4>
+            <h4>Guides</h4>
+            <button>Sign Up</button>
+        </div>
+        </header>
+           <div id="content">
+            <div id="content1">
+                <h1>Move <br> & earn <br> rewards</h1>
+                <h3>Join 1+ million members on the top <br> digital fitness platform . Stay tuned <br> and earn surprising rewards.</h3>
+                <div id="content1_sub1">
+                    <button>Get Started</button>
+                </div>
+            </div>
+            <div id="content2">
+                <div id="content2_sub1">
+                    <h1>Sweat</h1>
+                    <h5>3 challenges</h5>
+                </div>
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="card" id="card1">
+                        <div class="image-container">
+                            <img src="./icons8-fitness-94.png" alt="Image 1">
+                        </div>
+                        <div class="text-container">
+                            <h3>Burn Hard</h3>
+                            <h5>Lift Like a Pro</h5>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="card" id="card2">
+                        <div class="image-container">
+                            <img src="./icons8-yoga-mat-94.png" alt="Image 2">
+                        </div>
+                        <div class="text-container">
+                            <h3>Work Hard</h3>
+                            <h5>No pain No gain</h5>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="card" id="card3">
+                        <div class="image-container">
+                            <img src="./icons8-instagram-94.png" alt="Image 3">
+                        </div>
+                        <div class="text-container">
+                           <h3>Join US</h3>
+                           <h5>On Instagram</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <footer>
+            <div id="footer">
+                <div id="footer1">
+                <span class="material-symbols-outlined">
+                    youtube_activity
+                    </span>
+                    <span class="material-symbols-outlined">
+                        captive_portal
+                        </span>
+                        <span class="material-symbols-outlined">
+                            fitness_center
+                            </span>
+                            <span class="material-symbols-outlined">
+                                bar_chart_4_bars
+                                </span>
+                            </div>
+                            <div id="footer2">
+                                copyright@fitness
+                            </div>
+            </div>
+           </footer>
+        </div>
+    </section>
+    <script>
+        const cardContainer = document.getElementById('cardContainer');
+
+        function reorderCards() {
+            // Get the last card and remove it from the container
+            const lastCard = cardContainer.lastElementChild;
+
+            // Move the last card to the beginning of the container
+            cardContainer.insertBefore(lastCard, cardContainer.firstChild);
+        }
+
+        // Repeat the reordering process every 2 seconds
+        setInterval(reorderCards, 2000);
+    </script>
+</body>
+</html>
